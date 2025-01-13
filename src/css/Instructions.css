@@ -1,0 +1,93 @@
+/* Container for positioning the button */
+.back-btn-container {
+    position: fixed;
+    top: 1rem;      
+    left: 1rem;     
+    z-index: 1000;  
+}
+
+/* Style for the back button */
+.back-btn {
+    width: 40px;   
+    height: 40px;
+    background-color: #808080;
+    border: none;  
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-btn i, .back-btn span {
+    color: white;  
+    font-size: 20px;
+}
+
+.back-btn:hover {
+    background-color: #6c757d;
+}
+
+/* Treasure Table Styles */
+.treasure-table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.treasure-table th,
+.treasure-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #dddddd;
+    color: #333333;
+}
+
+.treasure-table th {
+    background-color: #f5f5f5;
+    font-size: 0.95rem;
+}
+
+.treasure-table tr {
+    background-color: #ffffff;
+}
+
+.treasure-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.treasure-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .back-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .back-btn i, .back-btn span {
+        font-size: 18px;
+    }
+    
+    .treasure-table {
+        width: 95%;
+        font-size: 0.8rem;
+    }
+
+    .treasure-table th,
+    .treasure-table td {
+        padding: 6px 8px;
+    }
+}
+
+.note{
+    padding: 20px;
+}

@@ -1,0 +1,60 @@
+/* GameOver css file */
+
+.game-over-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.game-over-content{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.game-over-content h2{
+    margin-top: 0;
+}
+
+.game-over-content button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.score-display{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #4d4d4d;
+}
+
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #808080;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.game-over-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
+}

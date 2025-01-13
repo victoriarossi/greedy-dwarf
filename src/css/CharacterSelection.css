@@ -1,0 +1,44 @@
+.character-selection {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    border: 2px solid #070707;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    transition: border-color 0.3s;
+}
+
+.character-card.selected {
+    border-color: #007bff;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.confirm-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #166f0c;
+    font-size: medium;
+}
+
+.confirm-button:hover {
+    background-color: #6f6f6f;
+}
+
+.character-title{
+    font-size: xx-large;
+    margin-top: 20px;
+}

@@ -1,0 +1,133 @@
+.leaderboard-page {
+    background-color: #000;
+    color: #fffbff;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+.leaderboard-page h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+}
+
+.leaderboard-switch {
+    margin: 20px 0;
+}
+
+.leaderboard-switch .btn-custom {
+    margin: 0 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.leaderboard-switch .btn-custom.active {
+    background-color: #040c79;
+}
+
+.leaderboard-switch .btn-custom:hover {
+    background-color: #040c79;
+}
+
+.leaderboard-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    border: 1px solid #fff;
+    padding: 12px;
+    color: #fffbff;
+}
+
+.leaderboard-table th {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2em;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.leaderboard-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.current-user {
+    background-color: rgba(255, 215, 0, 0.3);
+}
+
+/* Container for positioning the button */
+.back-btn-container {
+    position: fixed; /* Fixes the position relative to the viewport */
+    top: 1rem;       /* Space from the top */
+    left: 1rem;      /* Space from the left */
+    z-index: 1000;   /* Ensure it stays on top of other elements */
+}
+
+/* Style for the back button */
+.back-btn {
+width: 40px;    /* Width and height of the circle */
+height: 40px;
+background-color: #808080; /* Gray color */
+border: none;  /* Remove default border */
+border-radius: 50%; /* Make the button circular */
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.back-btn i, .back-btn span {
+color: white;   /* Icon color */
+font-size: 20px; /* Icon size */
+}
+  
+.back-btn:hover {
+background-color: #6c757d; /* Slightly darker gray on hover */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.search-button:hover {
+    background-color: #040c79;
+}
